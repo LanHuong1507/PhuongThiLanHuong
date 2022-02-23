@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<head>
+    <title>LAYOUT </title>
+    <style>
+        * {
+            margin: auto;
+            padding: auto;
+        }
+        
+        .wrapper {
+            height: 700px;
+            width: 1089px;
+            background-color: aliceblue;
+        }
+        
+        body {
+            background-image: url(../image/backgroung.jpg);
+        }
+        
+        nav {
+            width: 1089px;
+            background-color: slateblue;
+        }
+        
+        header {
+            height: 100px;
+            width: 1089px;
+            background-color: aquamarine;
+            text-align: center;
+        }
+        
+        .content {
+            height: 400px;
+            width: 1089px;
+            background-color: rebeccapurple;
+        }
+        
+        section {
+            height: 400px;
+            width: 70%;
+            float: left;
+            background-color: blue;
+        }
+        
+        aside {
+            height: 400px;
+            width: 30%;
+            float: left;
+            background-color: rgb(107, 221, 107);
+        }
+        
+        #sec1 {
+            height: 400px;
+            width: 50%;
+            float: left;
+            background-color: rgb(194, 167, 18);
+        }
+        
+        #sec2 {
+            height: 400px;
+            width: 50%;
+            float: left;
+            background-color: rgb(247, 171, 9);
+        }
+        
+        footer {
+            text-align: center;
+            height: 100px;
+            width: 1089px;
+            background-color: skyblue;
+        }
+        
+        .menu li {
+            float: left;
+            line-height: 50px;
+            list-style: none;
+            text-indent: 10px;
+            width: 200px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            width: 50px;
+        }
+        
+        li :hover {
+            color: red;
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a>Home</a>
+                </li>
+                <li>
+                    <a>Services</a>
+                </li>
+                <li>
+                    <a>Product</a>
+                </li>
+                <li>
+                    <a>About</a>
+                </li>
+            </ul>
+        </nav>
+        <header></header>
+        <div class="content">
+            <aside> Contract About
+                <ul>
+                    <li> <a href="https://vi-vn.facebook.com/">Facebook</a>
+                    </li>
+                </ul>
+            </aside>
+            <section>
+                <div id="sec1">
+                </div>
+                <div id="sec2">
+
+                </div>
+            </section>
+        </div>
+        <footer></footer>
+    </div>
+</body>
