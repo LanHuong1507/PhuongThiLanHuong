@@ -1,0 +1,43 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#layout4{
+    background-color:rgb(51, 83, 187) ;
+    width: 1000px;
+    height: 800px;
+    border: solid 1px black;
+}
+header{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+nav{
+    height: 600px;
+    width: 500px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    text-align: left;
+    float: left;
+}
+section{
+    height: 600px;
+    width: 498px;
+    border-bottom: 1px solid black;
+    float: left;
+}
+article{
+    height: 550px;
+    width: 450px;
+    background-color: blanchedalmond;
+    margin: 10px;
+    text-align: left;
+}
+footer{
+    height: 98px;
+    width: 100%;
+    text-align:left;
+}

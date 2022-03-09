@@ -1,0 +1,28 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#layout1{
+    background-color:rgb(245, 166, 192) ;
+    width: 800px;
+    height: 500px;
+    border: solid 1px black;
+}
+header{
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+section{
+    height: 350px;
+    width: 800px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+footer{
+    height: 78px;
+    width: 100%;
+    text-align: center;
+}

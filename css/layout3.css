@@ -1,0 +1,49 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#layout3{
+    background-color:orange;
+    width: 980px;
+    border: 1px solid black;
+    height: 500px;
+}
+header{
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    height: 75px;
+}
+menu{
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+#a1{
+    width: 300px;
+    height: 300px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+}
+#a2{
+    width: 480px;
+    height: 300px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+}
+#a3{
+    width: 198px;
+    height: 300px;
+    border-bottom: 1px solid black;
+    float: left;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    float: left;
+}

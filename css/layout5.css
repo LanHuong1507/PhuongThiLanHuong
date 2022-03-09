@@ -1,0 +1,40 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#layout5{
+    background-color:rgb(7, 110, 46) ;
+    width: 800px;
+    height: 500px;
+    border: solid 1px black;
+}
+header{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+section{
+    height: 250px;
+    width: 800px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+#a1{
+    height: 200px;
+    width: 600px;
+    background-color: blanchedalmond;
+    text-align: left;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    text-align: left;
+}
